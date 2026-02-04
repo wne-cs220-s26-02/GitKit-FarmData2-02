@@ -158,7 +158,7 @@ The functionality of FarmData2 is tested using the [Cypress framework](https://w
 The Cypress end-to-end test framework works by controlling the web browser. A test typically consists of a series of steps that are automated by the Cypress tests, called _spec_s. A typical spec consist of the steps:
   1. Setup the test (e.g. login, prime the database)
   1. Visit a specific page
-  1. Query the page for an _html element_ of interest (e.g. button, ext field)
+  1. Query the page for an _html element_ of interest (e.g. button, text field)
   1. Interact with that element (e.g. click the button, enter some text)
   1. Make an assertion about the result (e.g. new information appears on the page)
 
@@ -175,7 +175,7 @@ The Cypress end-to-end test framework works by controlling the web browser. A te
 
 Cypress component tests work by mounting a Vue Component into a browser and allowing tests to interact with it in isolation from the application.  A typical comonent test will:
   1. Configuring and mounting the component into the test framework.
-  1. Query the component for an _html element_ of interest (e.g. button, ext field)
+  1. Query the component for an _html element_ of interest (e.g. button, text field)
   1. Interact with that element (e.g. click the button, enter some text)
   1. Make an assertion about the result (e.g. the component emits an event or changes state).
 
